@@ -38,6 +38,24 @@ header h1 {
   letter-spacing: -0.03em;
 }
 
+.logo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-card img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+  display: block;
+  background: var(--white);
+  padding: 12px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 nav ul {
   list-style: none;
   display: flex;
