@@ -301,6 +301,23 @@ footer a:hover {
   transform: translateY(-4px);
 }
 
+.legal-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.legal-page ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.legal-page li {
+  margin-bottom: 0.5rem;
+}
+
+.legal-page h3 {
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.55rem;
