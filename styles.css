@@ -213,6 +213,48 @@ footer p {
   margin: 0;
 }
 
+/* HOME PAGE FEATURES */
+
+.eyebrow {
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+}
+
+#features {
+  margin-top: 3rem;
+}
+
+#faq {
+  margin-top: 3rem;
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.55rem;
