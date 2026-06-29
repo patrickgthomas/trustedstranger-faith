@@ -889,7 +889,7 @@ details p {
 /* FOOTER */
 
 .site-footer {
-  background: #071526;
+  background: #7a004b;
   color: var(--white);
   padding: 3rem 1.5rem 1.25rem;
 }
@@ -1783,6 +1783,26 @@ textarea:focus {
   font-size: 1.08rem;
   line-height: 1.7;
   color: var(--text);
+}
+
+.app-hero .button,
+.final-cta .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 0.95rem 1.4rem;
+  border-radius: 14px;
+  background: var(--gold);
+  color: var(--deep-navy);
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 12px 24px rgba(214, 168, 63, 0.24);
+}
+
+.app-hero .button:hover,
+.final-cta .button:hover {
+  transform: translateY(-1px);
 }
 
 .app-section {
